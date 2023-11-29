@@ -5,4 +5,4 @@ for c in range(122, 96, -1):
         alpha = c - 32
     else:
         alpha = c
-    print(f"{chr(alpha)}", end="")
+    print("{}" .format(chr(alpha)), end="")
