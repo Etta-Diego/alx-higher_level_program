@@ -8,6 +8,13 @@ class:
 class MyList(list):
     """
     module:
+        method that calls the list constructor with the given arguments
+    """
+    def __init__(self, *args):
+        list.__init__(self, *args)
+
+    """
+    module:
         public instance method that prints the list,
         but sorted (ascending sort)
     """
